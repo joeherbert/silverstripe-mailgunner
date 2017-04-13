@@ -1,6 +1,6 @@
 {
     "name": "kinglozzer/silverstripe-mailgunner",
-    "description": "Mailgun integration for SilverStripe emails",
+    "description": "Mailgun integration for SilverStripe emails (upgrade Mailgun PHP)",
     "type": "silverstripe-module",
     "homepage": "https://github.com/kinglozzer/silverstripe-mailgunner",
     "keywords": ["silverstripe", "mailgun", "mailgunner", "mailer", "email"],
