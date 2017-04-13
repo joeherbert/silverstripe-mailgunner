@@ -59,12 +59,7 @@ class Mailer extends SilverstripeMailer
     public function __construct()
     {
         $config = $this->config();
-        $this->setMailgunClient(new Mailgun(
-            $config->api_key,
-            $config->api_endpoint,
-            $config->api_version,
-            $config->api_ssl
-        ));
+        $this->setMailgunClient(new Mailgun::create($config->api_key));
     }
 
     /**
